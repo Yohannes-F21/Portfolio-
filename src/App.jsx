@@ -9,7 +9,9 @@ const App = () => {
   const { isDarkTheme } = useGlobalContext();
   return (
     <main
-      className={` ${isDarkTheme ? "bg-slate-900 text-white" : "bg-white "}`}
+      className={` ${
+        isDarkTheme ? "bg-slate-900 text-white" : "bg-slate-100 "
+      }`}
     >
       <Navbar />
       <Hero />

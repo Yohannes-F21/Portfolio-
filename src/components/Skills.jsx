@@ -7,7 +7,7 @@ const Skills = () => {
 
   return (
     <section
-      className={` py-20 xl:max-w-[90%] mx-auto  ${
+      className={` py-20 xl:max-w-[90%] mx-auto align-element  ${
         isDarkTheme ? "bg-slate-900 text-white" : "bg-white "
       }`}
       id="skills"
