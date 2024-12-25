@@ -12,7 +12,7 @@ const Navbar = () => {
         isDarkTheme ? "bg-slate-900 text-white" : "bg-indigo-100 "
       }`}
     >
-      <div className=" py-4 flex flex-col sm: mx-8 sm:flex-row sm:gap-x-16 sm:items-center sm:py-6 sm:justify-between ">
+      <div className=" py-4 flex  sm: mx-8 flex-row sm:gap-x-16 sm:items-center sm:py-6 justify-between ">
         <h2 className="text-3xl font-bold ">
           Web<span className="text-indigo-600 ">dev</span>
         </h2>
