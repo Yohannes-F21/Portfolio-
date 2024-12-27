@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 import propertyProsper from "./assets/property.png";
 import medicalExtraction from "./assets/MEI.jpg";
 import homeFinder from "./assets/home.PNG";
-import HRMS from "./assets/HRMS.png";
+import HRMS from "./assets/HRMS.PNG";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
