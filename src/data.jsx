@@ -4,6 +4,7 @@ import { Icon } from "@iconify/react";
 import propertyProsper from "./assets/property.png";
 import medicalExtraction from "./assets/MEI.jpg";
 import homeFinder from "./assets/home.PNG";
+import HRMS from "./assets/HRMS.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -136,11 +137,11 @@ export const projects = [
   {
     id: nanoid(),
     img: homeFinder,
-    url: "https://property-prosper.vercel.app/",
+    url: "https://homefinder-awrp.onrender.com/",
     github: "https://github.com/AASTU-Capstone-Project/frontend",
     title: "Home Finder ",
     techStack: [
-      "vscode-icons:file-type-nuxt",
+      "logos:react",
       "logos:nodejs-icon",
       "devicon:mongodb-wordmark",
       "skill-icons:tailwindcss-dark",
@@ -149,30 +150,31 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: propertyProsper,
-    url: "https://property-prosper.vercel.app/",
-    github: "https://github.com/AASTU-Capstone-Project/frontend",
-    title: "Property Prosper",
+    img: HRMS,
+    url: "#",
+    github: "https://github.com/Yohannes-F21/inventory-management-system",
+    title: "Inventory Management System",
     techStack: [
-      "vscode-icons:file-type-nuxt",
+      "logos:react",
       "logos:nodejs-icon",
       "devicon:mongodb-wordmark",
       "skill-icons:tailwindcss-dark",
+      "devicon:antdesign",
     ],
-    text: "An online real estate platform for renting, buying, and listing properties, featuring multilingual support and secure payment integration. Built with the MEVN stack, with a focus on responsive UI/UX design.",
+    text: "A robust application for managing inventory efficiently, built with the MERN stack, Ant Design and TailwindCSS. Features include streamlined tracking, stock updates, and reporting, designed for seamless user interaction and optimized performance.",
   },
-  {
-    id: nanoid(),
-    img: propertyProsper,
-    url: "https://property-prosper.vercel.app/",
-    github: "https://github.com/AASTU-Capstone-Project/frontend",
-    title: "Property Prosper",
-    techStack: [
-      "vscode-icons:file-type-nuxt",
-      "logos:nodejs-icon",
-      "devicon:mongodb-wordmark",
-      "skill-icons:tailwindcss-dark",
-    ],
-    text: "An online real estate platform for renting, buying, and listing properties, featuring multilingual support and secure payment integration. Built with the MEVN stack, with a focus on responsive UI/UX design.",
-  },
+  // {
+  //   id: nanoid(),
+  //   img: propertyProsper,
+  //   url: "#",
+  //   github: "https://github.com/AASTU-Capstone-Project/frontend",
+  //   title: "Property Prosper",
+  //   techStack: [
+  //     "vscode-icons:file-type-nuxt",
+  //     "logos:nodejs-icon",
+  //     "devicon:mongodb-wordmark",
+  //     "skill-icons:tailwindcss-dark",
+  //   ],
+  //   text: "An online real estate platform for renting, buying, and listing properties, featuring multilingual support and secure payment integration. Built with the MEVN stack, with a focus on responsive UI/UX design.",
+  // },
 ];

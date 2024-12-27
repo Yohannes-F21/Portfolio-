@@ -13,7 +13,7 @@ const Projects = () => {
       id="projects"
     >
       <SectionTitle text="Projects" />
-      <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+      <div className={` py-16 grid lg:grid-cols-2 xl:grid-cols-4 gap-8 `}>
         {projects.map((project) => {
           return <ProjectsCard key={project.id} {...project} />;
         })}
